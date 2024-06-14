@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/SamuelEnoh/IdeaProjects/Telecom/src/test/java/org/testCases">
+        <classes>
+            <class name="org.testCases.CalendarTest">
+                <methods>
+                    <include name="TestCalender"/>
+                </methods>
+            </class>
+            <class name="org.testCases.FormFieldsTest">
+                <methods>
+                    <include name="testFormFields"/>
+                </methods>
+            </class>
+            <class name="org.testCases.IframesTest">
+                <methods>
+                    <include name="testIframes"/>
+                </methods>
+            </class>
+            <class name="org.testCases.ModalTest">
+                <methods>
+                    <include name="testSimpleModal"/>
+                    <include name="testFormFields"/>
+                </methods>
+            </class>
+            <class name="org.testCases.PopupTest">
+                <methods>
+                    <include name="testAlert"/>
+                </methods>
+            </class>
+            <class name="org.testCases.SliderTest">
+                <methods>
+                    <include name="TestSliderFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

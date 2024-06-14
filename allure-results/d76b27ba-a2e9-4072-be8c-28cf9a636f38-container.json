@@ -1,0 +1,1 @@
+{"uuid":"d76b27ba-a2e9-4072-be8c-28cf9a636f38","name":"org.testCases.SliderTest","children":["644c3c3a-b4a4-4ce7-9b70-b52f48d4a94e"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1718032576593,"stop":1718032583439}],"afters":[],"start":1718032576561,"stop":1718032585348}
