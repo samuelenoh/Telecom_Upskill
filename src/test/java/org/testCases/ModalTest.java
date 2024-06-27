@@ -8,7 +8,7 @@ public class ModalTest extends BaseTest{
     public void testSimpleModal(){
         home.visitModalsPage();
         modal.clickSimpleModal();
-//        modal.checkSimpleModalContent();
+        modal.checkSimpleModalContent();
         modal.closeSimpleModal();
     }
     @Test()
